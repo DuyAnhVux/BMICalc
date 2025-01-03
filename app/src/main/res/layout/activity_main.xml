@@ -21,7 +21,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.077">
+        app:layout_constraintVertical_bias="0.14">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -89,7 +89,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.429">
+        app:layout_constraintVertical_bias="0.4">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -159,7 +159,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.627" />
+        app:layout_constraintVertical_bias="0.58" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvResult"
@@ -174,7 +174,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.887" >
+        app:layout_constraintVertical_bias="0.85">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -185,7 +185,6 @@
                 android:id="@+id/tvIndex"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="20.20"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="48sp"
@@ -195,11 +194,18 @@
                 android:id="@+id/tvResult"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="You are healthy"
                 android:textAlignment="center"
                 android:textColor="@color/normal"
                 android:textSize="34sp"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/text_hint"
+                android:textSize="20sp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
